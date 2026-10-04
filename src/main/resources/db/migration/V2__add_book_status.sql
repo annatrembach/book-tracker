@@ -1,0 +1,2 @@
+ALTER TABLE books
+    ADD COLUMN status VARCHAR(50) NOT NULL DEFAULT 'WantToRead';
